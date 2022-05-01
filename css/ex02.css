@@ -1,0 +1,37 @@
+.father {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+}
+
+
+.header {
+    background-color: rgb(91, 248, 88);
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.content {
+    background-color: tomato;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
+.nav {
+    background-color: rgb(54, 127, 238);
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
+
+
+.footer {
+    background-color: rgb(252, 197, 66);
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
